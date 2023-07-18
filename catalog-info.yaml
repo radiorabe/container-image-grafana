@@ -1,0 +1,19 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: grafana
+  title: Grafana
+  description: Grafana on UBI9 Minimal
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: radiorabe/container-image-grafana
+  links:
+    - url: https://grafana.service.int.rabe.ch
+      title: Production
+spec:
+  type: container
+  lifecycle: experimental
+  owner: it-reaktion
+  dependsOn:
+    - component:default/rabe-ubi9-minimal
