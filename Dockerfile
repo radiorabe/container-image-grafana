@@ -7,4 +7,4 @@ RUN    microdnf install -y \
     && microdnf clean all
 
 USER grafana
-CMD ["grafana-server"]
+CMD ["grafana", "server"]
