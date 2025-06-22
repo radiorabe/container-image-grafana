@@ -7,4 +7,5 @@ RUN    microdnf install -y \
     && microdnf clean all
 
 USER grafana
+WORKDIR /usr/share/grafana
 CMD ["grafana", "server"]
