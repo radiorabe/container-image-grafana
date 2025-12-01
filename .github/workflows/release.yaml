@@ -17,4 +17,4 @@ jobs:
       display-name: RaBe Grafana on UBI9
       tags: minimal rhel9 ubi9 rabe grafana
   mkdocs:
-    uses: radiorabe/actions/.github/workflows/release-mkdocs.yaml@v0.38.1
+    uses: radiorabe/actions/.github/workflows/release-mkdocs.yaml@v0.38.3
